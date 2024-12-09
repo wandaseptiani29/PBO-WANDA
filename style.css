@@ -1,0 +1,116 @@
+/* Reset dasar untuk styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa; /* Latar belakang biru muda */
+    color: #2a4365; /* Teks berwarna biru gelap */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2b6cb0; /* Biru tua untuk judul */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2b6cb0; /* Biru tua untuk label */
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #3182ce; /* Warna biru terang saat fokus */
+    box-shadow: 0 0 8px rgba(49, 130, 206, 0.5);
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #3182ce; /* Biru terang untuk tombol */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2b6cb0; /* Biru tua saat hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid #e2e8f0; /* Border yang lembut */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2b6cb0; /* Biru tua untuk header tabel */
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    background-color: #edf2f7; /* Latar belakang biru muda untuk tabel */
+    font-size: 16px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-delete {
+    background-color: #e53e3e; /* Merah untuk tombol hapus */
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #c53030; /* Merah lebih gelap saat hover */
+}
